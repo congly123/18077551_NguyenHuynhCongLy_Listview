@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C4E6E1"
+    android:scrollbarSize="18">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="347dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:background="#78E4DE"
+        android:paddingTop="10"
+        android:text="   password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#222020"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="101dp"
+        android:layout_height="55dp"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="347dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="44dp"
+        android:background="#78E4DE"
+        android:paddingTop="10"
+        android:text="    email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="62dp"
+        android:layout_height="51dp"
+        app:srcCompat="@drawable/eye_1"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="320dp"
+        android:layout_height="25dp"
+        android:paddingLeft="50"
+        android:text=" when do agree to tems and condition"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="226dp"
+        android:layout_height="35dp"
+        android:paddingLeft="30"
+        android:text="for got your password?"
+        android:textColor="#1580D1"
+        android:textColorHighlight="#0B70DD"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="111dp"
+        android:layout_height="27dp"
+        android:text="or login with"
+        android:textColor="#151414"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="351dp"
+        android:layout_height="59dp"
+        android:background="#AE1B1B"
+        android:paddingLeft="130"
+        android:paddingTop="5"
+        android:shadowColor="#DAA5A5"
+        android:text="LOGIN"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#FDF9F9"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/group_1"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="41dp"
+        android:layout_height="43dp"
+        app:srcCompat="@drawable/group__3_"
+        tools:layout_editor_absoluteX="307dp"
+        tools:layout_editor_absoluteY="604dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="102dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/vector__4_"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
